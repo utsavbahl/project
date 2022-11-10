@@ -74,8 +74,8 @@ data <- data %>%
 #Ok I want the grad_rate for 1991 to be with its 1991 class information
 #I also want that 
 
-Maybethis <- data %>%
-  group_by(Name, year) %>%
-  mutate(Adm_Rate=lag(Adm_Rate, n = 6L))
-#Not sure how to do this
-
+tmp <- data %>%
+  select(Name, Adm_Rate, Avg_Price_Pub, Avg_Price_Priv, year, -X)
+tmp2 <- data %>%
+  select(-Adm_Rate, -Avg_Price_Pub, -Avg_Price_Priv, -year, year_g, -X)
+chad <- merge(tmp, tmp2, by.x = c("Name","year"), by.y = c("Name","year_g"))

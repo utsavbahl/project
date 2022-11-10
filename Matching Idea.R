@@ -67,15 +67,25 @@ optional_years <- optional_years %>%
   filter(Description == "Test-optional")
 
 #The graduation rate is for the class of N-6 years. So, the row for 1997 will show the characteristics of the school in 1997 + the graduation rate of the class of 1991.
-#How do we solve for this issue?
+#How do we solve for this issue? Convert all data in terms of matriculation
 data <- data %>%
   mutate(year_g = year - 6)
-
-#Ok I want the grad_rate for 1991 to be with its 1991 class information
-#I also want that 
-
 tmp <- data %>%
-  select(Name, Adm_Rate, Avg_Price_Pub, Avg_Price_Priv, year, -X)
+  select(Name, Adm_Rate, Avg_Price_Pub, Avg_Price_Priv, year)
 tmp2 <- data %>%
-  select(-Adm_Rate, -Avg_Price_Pub, -Avg_Price_Priv, -year, year_g, -X)
-chad <- merge(tmp, tmp2, by.x = c("Name","year"), by.y = c("Name","year_g"))
+  select(-Adm_Rate, -Avg_Price_Pub, -Avg_Price_Priv, -year, year_g)
+data <- merge(tmp, tmp2, by.x = c("Name","year"), by.y = c("Name","year_g"))
+
+#Enter Test-Optional Years
+optional_years <- optional_years %>%
+ mutate(year = substr(year, 1,4)) 
+optional_years$year = as.integer(optional_years$year)
+optional_years <- optional_years %>%
+  mutate (year = year + 1)
+
+#If ever test-optional column is 1
+#If in year test-optional column is 1, if not 0
+#Remember pre or post treatment period is same for all units. Also, remember we are matching control to every treated unit.
+
+  
+

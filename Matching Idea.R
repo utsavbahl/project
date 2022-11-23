@@ -91,11 +91,14 @@ optional_years <- optional_years %>%
 optional_years <- optional_years %>%
   subset(select = -c(Description))
 data <- merge(x = data, y = optional_years, by = "Name", all.x = TRUE)
-t1 <- data %>%
+t2 <- data %>%
   subset(year >= yeartreat) %>%
   mutate(post = 1) %>%
   select(Name, year, post)
 t2 <- merge(x = data, y = t1, by = c("Name", "year"), all.x = TRUE)
+t2$post[is.na(t2$post)] = 0
+data <- t2
+
 
 
 

@@ -5,6 +5,7 @@ library(data.table)
 library(rvest)
 library(fuzzyjoin)
 library(dplyr)
+library(did2s)
 
 #Load Relevant Data
 data <- read.csv("educationdataset.csv")
@@ -82,10 +83,22 @@ optional_years <- optional_years %>%
 optional_years$year = as.integer(optional_years$year)
 optional_years <- optional_years %>%
   mutate (year = year + 1)
+optional_years <- optional_years %>%
+  filter(year >= 1997)
+optional_years <- optional_years %>%
+  rename(Name = Institution.Name,
+         yeartreat = year) 
+optional_years <- optional_years %>%
+  subset(select = -c(Description))
+data <- merge(x = data, y = optional_years, by = "Name", all.x = TRUE)
+t1 <- data %>%
+  subset(year >= yeartreat) %>%
+  mutate(post = 1) %>%
+  select(Name, year, post)
+t2 <- merge(x = data, y = t1, by = c("Name", "year"), all.x = TRUE)
 
-#If ever test-optional column is 1
-#If in year test-optional column is 1, if not 0
-#Remember pre or post treatment period is same for all units. Also, remember we are matching control to every treated unit.
 
+
+    
   
 

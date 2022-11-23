@@ -114,10 +114,16 @@ data$Grad_Asian <- paste(data$Grad_Asian, data$Grad_Asian_2010, sep = "")
 data$Grad_Asian <- gsub("NA", "", data$Grad_Asian)
 data$Grad_Asian <- as.numeric(data$Grad_Asian)
 
+data$Grad_Hispanic <- paste(data$Grad_Hispanic, data$Grad_Hispanic_2010, sep = "")
+data$Grad_Hispanic <- gsub("NA", "", data$Grad_Hispanic)
+data$Grad_Hispanic <- as.numeric(data$Grad_Hispanic)
+
+data$Grad_Aian <- paste(data$Grad_Aian, data$Grad_Aian_2010, sep = "")
+data$Grad_Aian <- gsub("NA", "", data$Grad_Aian)
+data$Grad_Aian <- as.numeric(data$Grad_Aian)
 
 
-data <- read_csv("dataset.csv")
-data <- data[,-1]
+
     
   
 

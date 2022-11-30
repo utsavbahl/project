@@ -1,129 +1,129 @@
-"","Institution.Name","Description","year"
-"1","Bowdoin College","Test-optional","1970-71"
-"2","Hampshire College","Test-optional","1970-71"
-"3","College of the Atlantic","Test-optional","1972-73"
-"4","St. John’s College","Test-optional","1972-73"
-"5","Bates College","Test-optional","1985-86"
-"6","Bard College","Test-optional","1985-86"
-"7","Union College","Test-optional","1988-89"
-"8","Sterling College","Test-optional","1991-92"
-"9","Franklin & Marshall College","Optional if top 10%, then for all","1991-92"
-"10","Lewis & Clark College","Test-optional","1992-93"
-"11","Wheaton College","Test-optional","1992-93"
-"12","Lafayette College","Test-optional","1994-95"
-"13","Dickinson College","Test-optional","1995-96"
-"14","Hartwick College","Test-optional","1996-97"
-"15","Susquehanna University","Optional if top 20%, then for all","1996-97"
-"16","Muhlenberg College","Test-optional","1997-98"
-"17","Mount Holyoke College","Test-optional","2001-02"
-"18","Ursinus College","Optional if 3.5 GPA/top 10%, then for all","2001-02"
-"19","Utica College","Test-optional","2001-02"
-"20","Dowling College","Test-optional","2004-05"
-"21","Pitzer College","Optional if 3.5 GPA","2004-05"
-"22","Sarah Lawrence College","Test-optional","2004-05"
-"23","Bard College at Simon’s Rock","Test-optional","2005-06"
-"24","Chatham University","Test-optional","2006-07"
-"25","Juniata College","Test-optional","2006-07"
-"26","Knox College","Test-optional","2006-07"
-"27","Lawrence University","Test-optional","2006-07"
-"28","St. Lawrence University","Test-optional","2006-07"
-"29","College of the Holy Cross","Test-optional","2006-07"
-"30","Bennington College","Test-optional","2007-08"
-"31","Gustavus Adolphus College","Test-optional","2007-08"
-"32","Hobart & William Smith Colleges","Test-optional","2007-08"
-"33","King’s College","Test-optional","2007-08"
-"34","Lake Forest College","Test-optional","2007-08"
-"35","Lebanon Valley College","Test-optional","2007-08"
-"36","McDaniel College","Optional if 3.5 GPA or top 10%","2007-08"
-"37","Mitchell College","Test-optional","2007-08"
-"38","Nazareth College","Test-optional","2007-08"
-"39","Providence College","Test-optional","2007-08"
-"40","Gettysburg College","Test-optional","2008-09"
-"41","Augustana College","Test-optional","2008-09"
-"42","Colby-Sawyer College","Test-optional","2008-09"
-"43","Denison University","Test-optional","2008-09"
-"44","Drew University","Test-optional","2008-09"
-"45","Elizabethtown College","Test-optional","2008-09"
-"46","Georgian Court University","Test-optional","2008-09"
-"47","Goucher College","Test-optional","2008-09"
-"48","Green Mountain College","Test-optional","2008-09"
-"49","Guilford College","Test-optional","2008-09"
-"50","Keuka College","Test-optional","2008-09"
-"51","Merrimack College","Test-optional","2008-09"
-"52","Rollins College","Test-optional","2008-09"
-"53","Stonehill College","Test-optional","2008-09"
-"54","University of Scranton","Optional if top 30%","2008-09"
-"55","Voorhees College","Test-optional","2008-09"
-"56","Washington College","Optional if 3.5 GPA or top 10%","2008-09"
-"57","Whitworth University","Test-optional","2008-09"
-"58","Wilson College","Test-optional","2008-09"
-"59","Wittenberg University","Test-optional","2008-09"
-"60","Worcester Polytechnic Institute","Test-optional","2008-09"
-"61","Lycoming College","Optional if top 50%","2009-10"
-"62","Albright College","Test-optional","2009-10"
-"63","Baldwin-Wallace College","Test-optional","2009-10"
-"64","Johnson & Wales University","Test-optional","2009-10"
-"65","Smith College","Test-optional","2009-10"
-"66","Wake Forest University","Test-optional","2009-10"
-"67","Agnes Scott College","Test-optional","2010-11"
-"68","American University","Test-optional","2010-11"
-"69","Assumption College","Test-optional","2010-11"
-"70","Connecticut College","Test-optional","2010-11"
-"71","Fairfield University","Test-optional","2010-11"
-"72","Illinois College","Test-optional","2010-11"
-"73","Loyola University Maryland","Test-optional","2010-11"
-"74","Marlboro College","Test-optional","2010-11"
-"75","Sacred Heart University","Test-optional","2010-11"
-"76","Sewanee-University of the South","Test-optional","2010-11"
-"77","Washington & Jefferson College","Test-optional","2010-11"
-"78","Daemen College","Optional if GPA of 86+","2011-12"
-"79","Manhattanville College","Test-optional","2011-12"
-"80","Marist College","Test-optional","2011-12"
-"81","Russell Sage College","Test-optional","2011-12"
-"82","Sage College of Albany","Test-optional","2011-12"
-"83","Saint Anselm College","Test-optional","2011-12"
-"84","Saint Michael’s College","Test-optional","2011-12"
-"85","Salve Regina University","Test-optional","2011-12"
-"86","Southern New Hampshire University*","Test-optional","2011-12"
-"87","Stetson University","Test-optional","2011-12"
-"88","The New School","Test-optional","2011-12"
-"89","Virginia Wesleyan College","Optional if 3.5 GPA","2011-12"
-"90","Wagner College","Test-optional","2011-12"
-"91","Furman University","Test-optional","2012-13"
-"92","Anna Maria College","Test-optional","2012-13"
-"93","Bryant University","Test-optional","2012-13"
-"94","DePaul University","Test-optional","2012-13"
-"95","Earlham College","Test-optional","2012-13"
-"96","Moravian College","Test-optional","2012-13"
-"97","Nichols College*","Optional if 3.0 GPA","2012-13"
-"98","Saint Leo University","Test-optional","2012-13"
-"99","Clark University","Test-optional","2013-14"
-"100","Catawba College","Optional if 3.25 GPA","2013-14"
-"101","Ithaca College","Test-optional","2013-14"
-"102","Lees-McRae College","Test-optional","2013-14"
-"103","Roger Williams University","Test-optional","2013-14"
-"104","The College of Saint Rose","Test-optional","2013-14"
-"105","William Jewell College","Test-optional","2013-14"
-"106","Brandeis University","Test-optional","2014-15"
-"107","Hood College","Optional if 3.25 GPA","2014-15"
-"108","Lynn University","Test-optional","2014-15"
-"109","Ohio Wesleyan University","Test-optional","2014-15"
-"110","Presbyterian College","Test-optional","2014-15"
-"111","Regis College","Test-optional","2014-15"
-"112","Saint Joseph’s University","Test-optional","2014-15"
-"113","Thomas College*","Test-optional","2014-15"
-"114","Beloit College","Test-optional","2015-16"
-"115","Brevard College","Test-optional","2015-16"
-"116","Bryn Mawr College","Test-optional","2015-16"
-"117","Columbus College of Art & Design*","Test-optional","2015-16"
-"118","Duquesne University","Optional if 3.0 GPA","2015-16"
-"119","Emmanuel College","Test-optional","2015-16"
-"120","Hofstra University","Test-optional","2015-16"
-"121","Mercyhurst University","Test-optional","2015-16"
-"122","Pine Manor College","Test-optional","2015-16"
-"123","Radford University","Optional if 3.2 GPA","2015-16"
-"124","Wesleyan University","Test-optional","2015-16"
-"125","Bay Path University","Test-optional","2015-16"
-"126","Cabrini College","Test-optional","2015-16"
-"127","Franklin Pierce University","Test-optional","2015-16"
-"128","Multnomah University","Test-optional","2015-16"
+"Institution.Name","Description","year"
+"Bowdoin College","Test-optional",1971
+"Hampshire College","Test-optional",1971
+"College of the Atlantic","Test-optional",1973
+"St. John’s College","Test-optional",1973
+"Bates College","Test-optional",1986
+"Bard College","Test-optional",1986
+"Union College","Test-optional",1989
+"Sterling College","Test-optional",1992
+"Franklin & Marshall College","Optional if top 10%, then for all",1992
+"Lewis & Clark College","Test-optional",1993
+"Wheaton College","Test-optional",1993
+"Lafayette College","Test-optional",1995
+"Dickinson College","Test-optional",1996
+"Hartwick College","Test-optional",1997
+"Susquehanna University","Optional if top 20%, then for all",1997
+"Muhlenberg College","Test-optional",1998
+"Mount Holyoke College","Test-optional",2002
+"Ursinus College","Optional if 3.5 GPA/top 10%, then for all",2002
+"Utica College","Test-optional",2002
+"Dowling College","Test-optional",2005
+"Pitzer College","Optional if 3.5 GPA",2005
+"Sarah Lawrence College","Test-optional",2005
+"Bard College at Simon’s Rock","Test-optional",2006
+"Chatham University","Test-optional",2007
+"Juniata College","Test-optional",2007
+"Knox College","Test-optional",2007
+"Lawrence University","Test-optional",2007
+"St. Lawrence University","Test-optional",2007
+"College of the Holy Cross","Test-optional",2007
+"Bennington College","Test-optional",2008
+"Gustavus Adolphus College","Test-optional",2008
+"Hobart & William Smith Colleges","Test-optional",2008
+"King’s College","Test-optional",2008
+"Lake Forest College","Test-optional",2008
+"Lebanon Valley College","Test-optional",2008
+"McDaniel College","Optional if 3.5 GPA or top 10%",2008
+"Mitchell College","Test-optional",2008
+"Nazareth College","Test-optional",2008
+"Providence College","Test-optional",2008
+"Gettysburg College","Test-optional",2009
+"Augustana College","Test-optional",2009
+"Colby-Sawyer College","Test-optional",2009
+"Denison University","Test-optional",2009
+"Drew University","Test-optional",2009
+"Elizabethtown College","Test-optional",2009
+"Georgian Court University","Test-optional",2009
+"Goucher College","Test-optional",2009
+"Green Mountain College","Test-optional",2009
+"Guilford College","Test-optional",2009
+"Keuka College","Test-optional",2009
+"Merrimack College","Test-optional",2009
+"Rollins College","Test-optional",2009
+"Stonehill College","Test-optional",2009
+"University of Scranton","Optional if top 30%",2009
+"Voorhees College","Test-optional",2009
+"Washington College","Optional if 3.5 GPA or top 10%",2009
+"Whitworth University","Test-optional",2009
+"Wilson College","Test-optional",2009
+"Wittenberg University","Test-optional",2009
+"Worcester Polytechnic Institute","Test-optional",2009
+"Lycoming College","Optional if top 50%",2010
+"Albright College","Test-optional",2010
+"Baldwin-Wallace College","Test-optional",2010
+"Johnson & Wales University","Test-optional",2010
+"Smith College","Test-optional",2010
+"Wake Forest University","Test-optional",2010
+"Agnes Scott College","Test-optional",2011
+"American University","Test-optional",2011
+"Assumption College","Test-optional",2011
+"Connecticut College","Test-optional",2011
+"Fairfield University","Test-optional",2011
+"Illinois College","Test-optional",2011
+"Loyola University Maryland","Test-optional",2011
+"Marlboro College","Test-optional",2011
+"Sacred Heart University","Test-optional",2011
+"Sewanee-University of the South","Test-optional",2011
+"Washington & Jefferson College","Test-optional",2011
+"Daemen College","Optional if GPA of 86+",2012
+"Manhattanville College","Test-optional",2012
+"Marist College","Test-optional",2012
+"Russell Sage College","Test-optional",2012
+"Sage College of Albany","Test-optional",2012
+"Saint Anselm College","Test-optional",2012
+"Saint Michael’s College","Test-optional",2012
+"Salve Regina University","Test-optional",2012
+"Southern New Hampshire University*","Test-optional",2012
+"Stetson University","Test-optional",2012
+"The New School","Test-optional",2012
+"Virginia Wesleyan College","Optional if 3.5 GPA",2012
+"Wagner College","Test-optional",2012
+"Furman University","Test-optional",2013
+"Anna Maria College","Test-optional",2013
+"Bryant University","Test-optional",2013
+"DePaul University","Test-optional",2013
+"Earlham College","Test-optional",2013
+"Moravian College","Test-optional",2013
+"Nichols College*","Optional if 3.0 GPA",2013
+"Saint Leo University","Test-optional",2013
+"Clark University","Test-optional",2014
+"Catawba College","Optional if 3.25 GPA",2014
+"Ithaca College","Test-optional",2014
+"Lees-McRae College","Test-optional",2014
+"Roger Williams University","Test-optional",2014
+"The College of Saint Rose","Test-optional",2014
+"William Jewell College","Test-optional",2014
+"Brandeis University","Test-optional",2015
+"Hood College","Optional if 3.25 GPA",2015
+"Lynn University","Test-optional",2015
+"Ohio Wesleyan University","Test-optional",2015
+"Presbyterian College","Test-optional",2015
+"Regis College","Test-optional",2015
+"Saint Joseph’s University","Test-optional",2015
+"Thomas College*","Test-optional",2015
+"Beloit College","Test-optional",2016
+"Brevard College","Test-optional",2016
+"Bryn Mawr College","Test-optional",2016
+"Columbus College of Art & Design*","Test-optional",2016
+"Duquesne University","Optional if 3.0 GPA",2016
+"Emmanuel College","Test-optional",2016
+"Hofstra University","Test-optional",2016
+"Mercyhurst University","Test-optional",2016
+"Pine Manor College","Test-optional",2016
+"Radford University","Optional if 3.2 GPA",2016
+"Wesleyan University","Test-optional",2016
+"Bay Path University","Test-optional",2016
+"Cabrini College","Test-optional",2016
+"Franklin Pierce University","Test-optional",2016
+"Multnomah University","Test-optional",2016

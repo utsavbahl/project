@@ -1,5 +1,4 @@
 #Load Libraries
-library(MatchIt)
 library(tidyverse)
 library(data.table)
 library(rvest)
@@ -10,8 +9,8 @@ library(did2s)
 #Load Relevant Data
 data <- read.csv("educationdataset.csv")
 optional_years <- read.csv("optionalschoolsandyears.csv")
-optional_years <- optional_years %>%
-  subset(select = -c(X))
+optional_years <- optional_years #%>%
+  #subset(select = -c(X))
 data <- data %>%
   subset(select = -c(X))
 
@@ -84,7 +83,7 @@ optional_years$year = as.integer(optional_years$year)
 optional_years <- optional_years %>%
   mutate (year = year + 1)
 optional_years <- optional_years %>%
-  filter(year >= 1997)
+  filter(year >= 1997 & year <= 2014)
 optional_years <- optional_years %>%
   rename(Name = Institution.Name,
          yeartreat = year) 
@@ -95,7 +94,7 @@ t2 <- data %>%
   subset(year >= yeartreat) %>%
   mutate(post = 1) %>%
   select(Name, year, post)
-t2 <- merge(x = data, y = t1, by = c("Name", "year"), all.x = TRUE)
+t2 <- merge(x = data, y = t2, by = c("Name", "year"), all.x = TRUE)
 t2$post[is.na(t2$post)] = 0
 data <- t2
 
